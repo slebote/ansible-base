@@ -1,0 +1,12 @@
+---
+- name: Example playbook name
+  hosts: docker
+  remote_user: ansible
+  # become: yes
+
+  roles:
+    - common
+    # - mysql
+    # - nginx
+    # - php-fpm
+    # - wordpress

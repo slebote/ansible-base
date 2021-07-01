@@ -1,0 +1,12 @@
+---
+- name: Add ACME package
+  become: yes
+  apt:
+    name: acme
+    state: present
+
+- name: Leave a mark
+  copy:
+    src: ansiblemark
+    dest: /tmp/ansiblemark
+    mode: 0644
