@@ -1,6 +1,6 @@
 # ansible-base
 
-Projet base ansible
+Ansible base project
 
 ## Included
 
